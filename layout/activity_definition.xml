@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dictionary.DefinitionActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/img1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wordtext"
+                android:padding="8dp"
+                android:textSize="40sp"
+                android:textColor="#0F2DD6"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/definitiontext"
+                android:textSize="30sp"
+                android:padding="8dp"
+                android:layout_below="@+id/wordtext"
+                android:textColor="#1A31C6"
+                android:textStyle="italic" />
+        </LinearLayout>
+</RelativeLayout>
